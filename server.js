@@ -12,9 +12,6 @@ app.get('/beneficiary', (req, res) => {
   res.send('Beneficiary app\n');
 });
 
-app.get('/frontend', (req, res) => {
-  res.send('Frontend app\n');
-});
 
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
