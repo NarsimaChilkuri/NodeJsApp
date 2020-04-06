@@ -8,8 +8,8 @@ const HOST = '0.0.0.0';
 
 // App
 const app = express();
-app.get('/beneficiary', (req, res) => {
-  res.send('Beneficiary app\n');
+app.get('/frontend', (req, res) => {
+  res.send('Frontend app\n');
 });
 
 
